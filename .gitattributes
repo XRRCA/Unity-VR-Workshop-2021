@@ -1,15 +1,11 @@
 # Macro for Unity YAML-based asset files.
 [attr]unityyaml -text merge=unityyamlmerge diff
-
 # Macro for all binary files that should use Git LFS.
 [attr]lfs -text filter=lfs diff=lfs merge=lfs
-
 # Default to auto-normalized line endings.
 * text=auto
-
 # Code
 *.cs text diff=csharp
-
 # Unity Text Assets
 *.meta unityyaml eol=lf
 *.unity unityyaml eol=lf
@@ -36,11 +32,9 @@
 *.preset unityyaml eol=lf
 *.asmdef -text diff
 *.gradle text eol=lf
-
 Packages/*.json text eol=lf
 UnityPackageManager/manifest.json text eol=lf
 ProjectSettings/ProjectVersion.txt text eol=lf
-
 # Unity Binary Assets
 *.cubemap lfs
 *.unitypackage lfs
@@ -48,7 +42,6 @@ ProjectSettings/ProjectVersion.txt text eol=lf
 *-[Tt]errain.asset -unityyaml lfs
 # Note: Unity navmesh assets must have "-NavMesh" suffix.
 *-[Nn]av[Mm]esh.asset -unityyaml lfs
-
 # Image
 *.jpg lfs
 *.jpeg lfs
@@ -76,7 +69,6 @@ ProjectSettings/ProjectVersion.txt text eol=lf
 *.psd lfs
 *.afphoto lfs
 *.afdesign lfs
-
 # Audio
 *.mp3 lfs
 *.ogg lfs
@@ -87,7 +79,6 @@ ProjectSettings/ProjectVersion.txt text eol=lf
 *.it lfs
 *.s3m lfs
 *.xm lfs
-
 # Video
 *.mov lfs
 *.avi lfs
@@ -98,7 +89,6 @@ ProjectSettings/ProjectVersion.txt text eol=lf
 *.flv lfs
 *.ogv lfs
 *.wmv lfs
-
 # 3D
 *.fbx lfs
 *.obj lfs
@@ -118,17 +108,17 @@ ProjectSettings/ProjectVersion.txt text eol=lf
 *.bin lfs
 *.glb lfs
 *.ply lfs
-
 # Executables
 *.exe lfs
 *.dll lfs
 *.so lfs
 *.pdb lfs
 *.mdb lfs
-
 # Packaging
 *.zip lfs
 *.7z lfs
 *.gz lfs
 *.rar lfs
 *.tar lfs
+Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle filter=lfs diff=lfs merge=lfs -text
+Assets/Oculus/LipSync/Plugins/iOS/libOVRLipSync.dylib filter=lfs diff=lfs merge=lfs -text
