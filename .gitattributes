@@ -11,30 +11,35 @@
 *.cs text diff=csharp
 
 # Unity Text Assets
-*.meta unityyaml
-*.unity unityyaml
-*.asset unityyaml
-*.prefab unityyaml
-*.mat unityyaml
-*.anim unityyaml
-*.controller unityyaml
+*.meta unityyaml eol=lf
+*.unity unityyaml eol=lf
+*.asset unityyaml eol=lf
+*.prefab unityyaml eol=lf
+*.mat unityyaml eol=lf
+*.anim unityyaml eol=lf
+*.controller unityyaml eol=lf
 *.overrideController unityyaml
-*.physicMaterial unityyaml
-*.physicsMaterial2D unityyaml
-*.playable unityyaml
-*.mask unityyaml
-*.brush unityyaml
-*.flare unityyaml
-*.fontsettings unityyaml
-*.guiskin unityyaml
-*.giparams unityyaml
-*.renderTexture unityyaml
-*.spriteatlas unityyaml
-*.terrainlayer unityyaml
-*.mixer unityyaml
-*.shadervariants unityyaml
-*.preset unityyaml
+*.physicMaterial unityyaml eol=lf
+*.physicsMaterial2D unityyaml eol=lf
+*.playable unityyaml eol=lf
+*.mask unityyaml eol=lf
+*.brush unityyaml eol=lf
+*.flare unityyaml eol=lf
+*.fontsettings unityyaml eol=lf
+*.guiskin unityyaml eol=lf
+*.giparams unityyaml eol=lf
+*.renderTexture unityyaml eol=lf
+*.spriteatlas unityyaml eol=lf
+*.terrainlayer unityyaml eol=lf
+*.mixer unityyaml eol=lf
+*.shadervariants unityyaml eol=lf
+*.preset unityyaml eol=lf
 *.asmdef -text diff
+*.gradle text eol=lf
+
+Packages/*.json text eol=lf
+UnityPackageManager/manifest.json text eol=lf
+ProjectSettings/ProjectVersion.txt text eol=lf
 
 # Unity Binary Assets
 *.cubemap lfs
