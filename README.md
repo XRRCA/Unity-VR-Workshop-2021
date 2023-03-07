@@ -51,7 +51,7 @@ This will allow you to do testing and development on your device.
 
 #### Using HTC, Valve or other [OpenXR](https://www.khronos.org/openxr/) Devices
 
-* Install [Steam](http://store.steampowered.com/about) and [SteamVR](https://store.steampowered.com/app/250820/SteamVR/ | width=100).
+* Install [Steam](http://store.steampowered.com/about) and [SteamVR](https://store.steampowered.com/app/250820/SteamVR/).
 * plug in headset into your computer and make sure its linked and recognized by SteamVR.
 
 <img src="https://connect-prd-cdn.unity.com/20210316/learn/images/247e9360-ac92-411b-9b11-442f75d06b39_0.1_5.jpg.1000x0x1.jpg" width=500>
