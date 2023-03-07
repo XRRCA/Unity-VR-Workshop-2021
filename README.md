@@ -18,6 +18,46 @@ Template is from [Unity Learn's Create with VR Course](https://learn.unity.com/c
 * Download this project repository to your local machine using *one* of the following methods:
   * Git clone the repository with `git clone https://github.com/VizRCA/Template-VRTK_OculusGoQuest.git`
   * Download the zip file using the button above and **extract it**.
+  
+### Setting up the hardware
+
+* This learning content is fully verified with Meta Quest model headsets.
+* You can use any other headsets that support OpenXR, including the Valve Index, HTC Vive, and Windows Mixed Reality Headsets, but you are more likely to encounter obstacles along the way. Everything should function properly, but the learning content has not been fully tested and verified on these devices.
+> Note: If you do not have access to a VR headset, you can still benefit from this course, but your ability to fully test the VR experience will be somewhat limited.
+
+#### Using Meta (Oculus) Quest 2
+
+* Put your device in Developer Mode:
+Follow the instructions on [Device Setup from the Oculus Developer page](https://developer.oculus.com/documentation/native/android/mobile-device-setup/) to put your device in Developer Mode.
+This will allow you to do testing and development on your device.
+
+* Connect your device to your computer through Oculus Link (Windows only):
+  * If you are using a Mac, skip this step. The Oculus software is currently only compatible with Windows.
+* From the [Oculus Link Setup page](https://www.oculus.com/accessories/oculus-link/), follow the instructions to connect your device to your computer.
+  * You will need to connect your device with a compatible cable and download the Oculus software.
+* If you have completed this step successfully, your device should be recognized and connected within the Oculus desktop app.
+
+<img src="https://connect-prd-cdn.unity.com/20210316/learn/images/cdb1eb13-c9df-4b03-b637-79fdda9d66fb_0.1_4.jpg.2000x0x1.jpg" width="500">
+
+
+##### Set up Quest for Android Development
+
+* Make sure the Android Development Modules are installed in the Unity Hub for your specific editor
+* Install [Oculus ADB Drivers](https://developer.oculus.com/downloads/package/oculus-adb-drivers/?locale=en_GB)
+* To build app for Android, go to `Build Settings` and switch platform to Android: 
+  * You can either `Build and Run` or `Patch and Run`
+  * To deploy `.apk` to your headset you can use [Meta Quest Developer Hub](https://developer.oculus.com/documentation/unity/ts-odh/?locale=en_GB) or [ADB Commands in Shell](https://developer.oculus.com/documentation/native/android/ts-adb/#mobile-android-debug-intro)
+
+
+#### Using HTC, Valve or other [OpenXR](https://www.khronos.org/openxr/) Devices
+
+* Install [Steam](http://store.steampowered.com/about) and [SteamVR](https://store.steampowered.com/app/250820/SteamVR/).
+* plug in headset into your computer and make sure its linked and recognized by SteamVR.
+
+<img src="https://connect-prd-cdn.unity.com/20210316/learn/images/247e9360-ac92-411b-9b11-442f75d06b39_0.1_5.jpg.1000x0x1.jpg" width=500>
+
+
+
 
 ### Opening the downloaded project in the Unity software
 
@@ -37,19 +77,6 @@ Template is from [Unity Learn's Create with VR Course](https://learn.unity.com/c
 * Browse to the local directory where the repository was downloaded to and click `Select Folder`.
 * The Template project will now open within the Unity software.
 
-
-### Building the example scene
-
-* Set up your Oculus Go for development, see below.
-* Set up a `Builds` directory outside the project `Assets` folder
-* Open `File` > `Build Settings`
-  * Make sure example scene is added to scenes in build list.
-  * Refresh the `Run Device` list, pick your Oculus Quest from the list.
-* Press `Build and Run`, put build into previously made `Builds` folder.
-
-#### Set up your Android Device (Oculus Quest) for builds
-
-+ On the Oculus phone app, make sure the Oculus Quest you are using has developer mode enabled
 
 ## License
 
